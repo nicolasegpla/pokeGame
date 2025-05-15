@@ -1,0 +1,29 @@
+@import '@/presentation/styles/index.scss';
+
+.counter {
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    -webkit-box-shadow: 4px 4px 12px -4px rgba(118, 117, 117, 1);
+    -moz-box-shadow: 4px 4px 12px -4px rgba(118, 117, 117, 1);
+    box-shadow: 4px 4px 12px -4px rgba(118, 117, 117, 1);
+    &__title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+    }
+    &__credits {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    
+}
